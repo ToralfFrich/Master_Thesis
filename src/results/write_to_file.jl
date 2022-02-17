@@ -1,6 +1,6 @@
 module WriteToFile
 
-include("./../basic_model/constants.jl")
+include("./../constraints/geometric/constants.jl")
 using Gurobi, JuMP
 using DelimitedFiles
 using Dates

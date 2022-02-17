@@ -1,27 +1,27 @@
 module Master
 
-include("./basic_model/variables.jl")
-include("./basic_model/sentinel.jl")
-include("./basic_model/rotations_currence.jl")
-include("./basic_model/non_overlapping.jl")
-include("./basic_model/inside_pallet.jl")
-include("./static_stability/partial_base/0_partial_base.jl")
-include("./static_stability/partial_base_2/0_partial_base.jl")
-include("./static_stability/on_top/0_on_top.jl")
-include("./static_stability/ss_mult_boxes/0_ss_mult_boxes.jl")
-include("./dynamic_stability/guillotine/0_guillotine.jl")
-include("./dynamic_stability/guillotine/callback.jl")
-include("./dynamic_stability/middle/0_middle.jl")
-include("./objective/objective.jl")
-include("./basic_model/constants.jl")
-include("./dynamic_stability/mult_boxes/0_mult_boxes.jl")
-include("./load_balance/0_load_balancing.jl")
-include("./robot/robot_pattern/0_robot_pattern.jl")
-include("./robot/simple/0_robot_simple.jl")
-include("./robot/simple/0_robot_simple_fixed.jl")
-include("./load_bearing/partial_base/0_partial_base_lb.jl")
-include("./load_bearing/simple/0_pressure_lb.jl")
-include("./load_bearing/simple/0_number_lb.jl")
+include("./constraints/geometric/variables.jl")
+include("./constraints/geometric/sentinel.jl")
+include("./constraints/geometric/rotations_currence.jl")
+include("./constraints/geometric/non_overlapping.jl")
+include("./constraints/geometric/inside_pallet.jl")
+include("./constraints/static_stability/partial_base/0_partial_base.jl")
+include("./constraints/static_stability/partial_base_2/0_partial_base.jl")
+include("./constraints/static_stability/on_top/0_on_top.jl")
+include("./constraints/static_stability/ss_mult_boxes/0_ss_mult_boxes.jl")
+include("./constraints/dynamic_stability/guillotine/0_guillotine.jl")
+include("./constraints/dynamic_stability/guillotine/callback.jl")
+include("./constraints/dynamic_stability/middle/0_middle.jl")
+include("./constraints/objective/constraints/objective.jl")
+include("./constraints/geometric/constants.jl")
+include("./constraints/dynamic_stability/mult_boxes/0_mult_boxes.jl")
+include("./constraints/load_balance/0_load_balancing.jl")
+include("./constraints/robot/robot_pattern/0_robot_pattern.jl")
+include("./constraints/robot/simple/0_robot_simple.jl")
+include("./constraints/robot/simple/0_robot_simple_fixed.jl")
+include("./constraints/load_bearing/partial_base/0_partial_base_lb.jl")
+include("./constraints/load_bearing/simple/0_pressure_lb.jl")
+include("./constraints/load_bearing/simple/0_number_lb.jl")
 include("./results/write_to_file.jl")
 include("./results/write_to_json.jl")
 using JuMP, Gurobi
@@ -169,30 +169,12 @@ function main(mode::Int64)
         m = objective(m, 0)
     end
 
-    # OPTIONS
-    #m = cons_ss_mult_boxes(m)
-    #m = cons_ds_guillotine(m)
-    #m = cons_ds_mult_boxes(m)
-    #m = cons_ds_middle(m)
-    #m = cons_lb_load_balancing(m)
-    
-    #m = cons_lb_simple_load_bearing(m)
-    #m = cons_lb_number_load_bearing(m)
-    #m = cons_rp_robot_simple_fixed(m)
-    #m = objective(m)
-
     function callback_function(cb_data)
         #guillotine_callback(cb_data, m)
         return
     end
 
     MOI.set(m, MOI.RawParameter("TimeLimit"), 2400)
-    #MOI.set(m, MOI.LazyConstraintCallback(), callback_function)
-    #MOI.set(m, MOI.RawParameter("MIPGap"), 0.00025)
-    #MOI.set(m, MOI.RawParameter("MIPFocus"), 1)
-    #mipfocus = 1: focus on finding feasible solutions
-    #mipfocus = 2: focus on finding optimality
-    #mipfocus = 3: focus on improving the bounds
     
     try
         optimize!(m)
@@ -207,21 +189,17 @@ function main(mode::Int64)
     catch err
         print("\n ERROR \n")
     end
-
+    
+    WriteToFile.append_to_file(m, mode)
     """
     if (has_values(m))
         WriteToJSON.write_to_json_simple(m)
     end
     """
-    
-    WriteToFile.append_to_file(m, mode)
-
-
-    #WriteToFile.write_to_file(m)
-    #WriteToFile.write_to_json(m)
 
 end
 
+#SPECIFY MODE
 for i in [5, 11, 12]
     main(i)
 end

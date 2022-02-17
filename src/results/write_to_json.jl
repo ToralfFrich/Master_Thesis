@@ -1,6 +1,6 @@
 module WriteToJSON
 
-include("./../basic_model/constants.jl")
+include("./../constraints/geometric/constants.jl")
 using JuMP
 using DelimitedFiles
 using Dates
