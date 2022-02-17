@@ -63,7 +63,7 @@ function main(mode::Int64)
     m = cons_rotations_currence(m)
     m = cons_non_overlapping(m)
     m = cons_inside_pallet(m)
-    print(mode)
+
     if (mode == 1)
         # LB
 
