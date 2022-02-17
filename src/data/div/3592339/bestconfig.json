@@ -1,0 +1,16 @@
+{
+    "pos_support_height_factor": 0.1,
+    "pos_support_min": 0.7,
+    "beam_length": 30,
+    "pos_weight_height": 0.7285908031160132,
+    "stack_weight_compacity": 53.16279914229759,
+    "stack_weight_all_items": 1.0962496521079166,
+    "similar_max_diff_ratio": 0.09246512390506531,
+    "step": 20,
+    "pos_weight_away": 0.10621083265483136,
+    "algorithm": "DepthSweepBeamSearch",
+    "pos_weight_side_support": 2.768016197777223,
+    "pos_weight_corner": 0.586803549044565,
+    "pos_weight_side": 0.5632073949979026,
+    "stack_weight_last_item": 1.0021751527645735
+}

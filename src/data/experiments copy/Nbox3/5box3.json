@@ -1,0 +1,58 @@
+{
+    "id": "stack_order_16",
+    "start_state": [],
+    "items_to_stack": [
+    {
+        "id": 0,
+        "weight": 2.07,
+        "shape": "Box",
+        "width": 0.374,
+        "depth": 0.166,
+        "height": 0.093,
+        "description": ""
+    },
+    {
+        "id": 0,
+        "weight": 3.25,
+        "shape": "Box",
+        "width": 0.2,
+        "depth": 0.2,
+        "height": 0.218,
+        "description": ""
+    },
+    {
+        "id": 0,
+        "weight": 5.21,
+        "shape": "Box",
+        "width": 0.35,
+        "depth": 0.21,
+        "height": 0.07,
+        "description": ""
+    },
+    {
+        "id": 0,
+        "weight": 6.91,
+        "shape": "Box",
+        "width": 0.397,
+        "depth": 0.196,
+        "height": 0.159,
+        "description": ""
+    },
+    {
+        "id": 0,
+        "weight": 2.1,
+        "shape": "Box",
+        "width": 0.08,
+        "depth": 0.166,
+        "height": 0.152,
+        "description": ""
+    }],
+    "params": {},
+    "pallet_depth": 1.2,
+    "pallet_width": 0.8,
+    "picklist_id": "stack_order_16",
+    "result_url": "",
+    "status": "pending",
+    "result": null,
+    "metrics": null
+}

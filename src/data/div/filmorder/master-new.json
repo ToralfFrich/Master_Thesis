@@ -1,0 +1,545 @@
+{
+    "id": "filmorder",
+    "start_state": [],
+    "items_to_stack": [
+        {
+            "id": 661074,
+            "weight": 13.6,
+            "shape": "Box",
+            "width": 0.395,
+            "depth": 0.26,
+            "height": 0.24,
+            "description": "ZALO ULTRA OPPVASK 500ML"
+        },
+        {
+            "id": 661074,
+            "weight": 13.6,
+            "shape": "Box",
+            "width": 0.395,
+            "depth": 0.26,
+            "height": 0.24,
+            "description": "ZALO ULTRA OPPVASK 500ML"
+        },
+        {
+            "id": 661074,
+            "weight": 13.6,
+            "shape": "Box",
+            "width": 0.395,
+            "depth": 0.26,
+            "height": 0.24,
+            "description": "ZALO ULTRA OPPVASK 500ML"
+        },
+        {
+            "id": 1918648,
+            "weight": 7.0,
+            "shape": "Box",
+            "width": 0.37,
+            "depth": 0.22,
+            "height": 0.255,
+            "description": "ZALO OPPVASKSPRAY"
+        },
+        {
+            "id": 1918648,
+            "weight": 7.0,
+            "shape": "Box",
+            "width": 0.37,
+            "depth": 0.22,
+            "height": 0.255,
+            "description": "ZALO OPPVASKSPRAY"
+        },
+        {
+            "id": 924977,
+            "weight": 12.6,
+            "shape": "Box",
+            "width": 0.395,
+            "depth": 0.24,
+            "height": 0.25,
+            "description": "ZALO ULTRA LB"
+        },
+        {
+            "id": 924977,
+            "weight": 12.6,
+            "shape": "Box",
+            "width": 0.395,
+            "depth": 0.24,
+            "height": 0.25,
+            "description": "ZALO ULTRA LB"
+        },
+        {
+            "id": 5206800,
+            "weight": 7.0,
+            "shape": "Box",
+            "width": 0.265,
+            "depth": 0.2,
+            "height": 0.235,
+            "description": "ZALO ULTRA OPPVASK EPLEB"
+        },
+        {
+            "id": 5670294,
+            "weight": 6.5,
+            "shape": "Box",
+            "width": 0.29,
+            "depth": 0.15,
+            "height": 0.23,
+            "description": "COMFORT T\u00d8YMYKNER FRESH"
+        },
+        {
+            "id": 5670294,
+            "weight": 6.5,
+            "shape": "Box",
+            "width": 0.29,
+            "depth": 0.15,
+            "height": 0.23,
+            "description": "COMFORT T\u00d8YMYKNER FRESH"
+        },
+        {
+            "id": 5670294,
+            "weight": 6.5,
+            "shape": "Box",
+            "width": 0.29,
+            "depth": 0.15,
+            "height": 0.23,
+            "description": "COMFORT T\u00d8YMYKNER FRESH"
+        },
+        {
+            "id": 2825370,
+            "weight": 7.0,
+            "shape": "Box",
+            "width": 0.37,
+            "depth": 0.22,
+            "height": 0.255,
+            "description": "JIF KJ\u00d8KKEN SPRAY"
+        },
+        {
+            "id": 2825370,
+            "weight": 7.0,
+            "shape": "Box",
+            "width": 0.37,
+            "depth": 0.22,
+            "height": 0.255,
+            "description": "JIF KJ\u00d8KKEN SPRAY"
+        },
+        {
+            "id": 3166907,
+            "weight": 12.0,
+            "shape": "Box",
+            "width": 0.295,
+            "depth": 0.265,
+            "height": 0.28,
+            "description": "SPYLERV\u00c6SKE -21C"
+        },
+        {
+            "id": 3166907,
+            "weight": 12.0,
+            "shape": "Box",
+            "width": 0.295,
+            "depth": 0.265,
+            "height": 0.28,
+            "description": "SPYLERV\u00c6SKE -21C"
+        },
+        {
+            "id": 4966651,
+            "weight": 12.0,
+            "shape": "Box",
+            "width": 0.3,
+            "depth": 0.26,
+            "height": 0.24,
+            "description": "SPYLERV\u00c6SKE -15 BL\u00c5TIND"
+        },
+        {
+            "id": 3160165,
+            "weight": 12.0,
+            "shape": "Box",
+            "width": 0.4,
+            "depth": 0.195,
+            "height": 0.24,
+            "description": "SPYLERV\u00c6SKE -15C"
+        },
+        {
+            "id": 5685839,
+            "weight": 6.0,
+            "shape": "Box",
+            "width": 0.285,
+            "depth": 0.19,
+            "height": 0.26,
+            "description": "MILO T\u00d8YMYKNER"
+        },
+        {
+            "id": 5675889,
+            "weight": 6.5,
+            "shape": "Box",
+            "width": 0.29,
+            "depth": 0.15,
+            "height": 0.23,
+            "description": "COMFORT T\u00d8YMYKNER SENSITIVE"
+        },
+        {
+            "id": 2388999,
+            "weight": 10.0,
+            "shape": "Box",
+            "width": 0.3,
+            "depth": 0.23,
+            "height": 0.26,
+            "description": "KRYSTAL GR\u00d8NNS\u00c5PE ORIGIN"
+        },
+        {
+            "id": 2388981,
+            "weight": 10.0,
+            "shape": "Box",
+            "width": 0.3,
+            "depth": 0.225,
+            "height": 0.26,
+            "description": "KRYSTAL GR\u00d8NNS\u00c5PE FURUN\u00c5"
+        },
+        {
+            "id": 2388981,
+            "weight": 10.0,
+            "shape": "Box",
+            "width": 0.3,
+            "depth": 0.225,
+            "height": 0.26,
+            "description": "KRYSTAL GR\u00d8NNS\u00c5PE FURUN\u00c5"
+        },
+        {
+            "id": 2473965,
+            "weight": 9.5,
+            "shape": "Box",
+            "width": 0.3,
+            "depth": 0.223,
+            "height": 0.26,
+            "description": "SALMI 7,5 DL"
+        },
+        {
+            "id": 2473965,
+            "weight": 9.5,
+            "shape": "Box",
+            "width": 0.3,
+            "depth": 0.223,
+            "height": 0.26,
+            "description": "SALMI 7,5 DL"
+        },
+        {
+            "id": 2473965,
+            "weight": 9.5,
+            "shape": "Box",
+            "width": 0.3,
+            "depth": 0.223,
+            "height": 0.26,
+            "description": "SALMI 7,5 DL"
+        },
+        {
+            "id": 2473999,
+            "weight": 10.0,
+            "shape": "Box",
+            "width": 0.3,
+            "depth": 0.225,
+            "height": 0.26,
+            "description": "KLORIN 7,5 DL"
+        },
+        {
+            "id": 4082772,
+            "weight": 8.0,
+            "shape": "Box",
+            "width": 0.375,
+            "depth": 0.22,
+            "height": 0.25,
+            "description": "KLORIN RENGJ\u00d8RING SPRAY"
+        },
+        {
+            "id": 4082772,
+            "weight": 8.0,
+            "shape": "Box",
+            "width": 0.375,
+            "depth": 0.22,
+            "height": 0.25,
+            "description": "KLORIN RENGJ\u00d8RING SPRAY"
+        },
+        {
+            "id": 4082772,
+            "weight": 8.0,
+            "shape": "Box",
+            "width": 0.375,
+            "depth": 0.22,
+            "height": 0.25,
+            "description": "KLORIN RENGJ\u00d8RING SPRAY"
+        },
+        {
+            "id": 3169141,
+            "weight": 7.6,
+            "shape": "Box",
+            "width": 0.32,
+            "depth": 0.17,
+            "height": 0.26,
+            "description": "SKUREKREM SITRON FIRST P"
+        },
+        {
+            "id": 3169141,
+            "weight": 7.6,
+            "shape": "Box",
+            "width": 0.32,
+            "depth": 0.17,
+            "height": 0.26,
+            "description": "SKUREKREM SITRON FIRST P"
+        },
+        {
+            "id": 3065307,
+            "weight": 10.0,
+            "shape": "Box",
+            "width": 0.29,
+            "depth": 0.19,
+            "height": 0.32,
+            "description": "GR\u00d8NNS\u00c5PE FIRST PRICE"
+        },
+        {
+            "id": 2086593,
+            "weight": 11.0,
+            "shape": "Box",
+            "width": 0.375,
+            "depth": 0.27,
+            "height": 0.19,
+            "description": "PARISERSURK\u00c5L HJ.LAGET N"
+        },
+        {
+            "id": 682146,
+            "weight": 11.0,
+            "shape": "Box",
+            "width": 0.375,
+            "depth": 0.27,
+            "height": 0.19,
+            "description": "NORA SURK\u00c5L"
+        },
+        {
+            "id": 1452127,
+            "weight": 11.2,
+            "shape": "Box",
+            "width": 0.375,
+            "depth": 0.27,
+            "height": 0.19,
+            "description": "SURK\u00c5L HJEMMELAGET"
+        },
+        {
+            "id": 2825388,
+            "weight": 7.0,
+            "shape": "Box",
+            "width": 0.37,
+            "depth": 0.225,
+            "height": 0.25,
+            "description": "JIF BADEROM SPRAY"
+        },
+        {
+            "id": 2825388,
+            "weight": 7.0,
+            "shape": "Box",
+            "width": 0.37,
+            "depth": 0.225,
+            "height": 0.25,
+            "description": "JIF BADEROM SPRAY"
+        },
+        {
+            "id": 1236439,
+            "weight": 3.5,
+            "shape": "Box",
+            "width": 0.41,
+            "depth": 0.255,
+            "height": 0.255,
+            "description": "CAFFE LATTE BEGER UNIK 25"
+        },
+        {
+            "id": 1236439,
+            "weight": 3.5,
+            "shape": "Box",
+            "width": 0.41,
+            "depth": 0.255,
+            "height": 0.255,
+            "description": "CAFFE LATTE BEGER UNIK 25"
+        },
+        {
+            "id": 2825925,
+            "weight": 7.0,
+            "shape": "Box",
+            "width": 0.37,
+            "depth": 0.22,
+            "height": 0.255,
+            "description": "JIF UNIVERSAL SPRAY"
+        },
+        {
+            "id": 2825925,
+            "weight": 7.0,
+            "shape": "Box",
+            "width": 0.37,
+            "depth": 0.22,
+            "height": 0.255,
+            "description": "JIF UNIVERSAL SPRAY"
+        },
+        {
+            "id": 2825925,
+            "weight": 7.0,
+            "shape": "Box",
+            "width": 0.37,
+            "depth": 0.22,
+            "height": 0.255,
+            "description": "JIF UNIVERSAL SPRAY"
+        },
+        {
+            "id": 5675798,
+            "weight": 6.5,
+            "shape": "Box",
+            "width": 0.29,
+            "depth": 0.15,
+            "height": 0.23,
+            "description": "COMFORT T\u00d8YMYKNER DUGGFRISK"
+        },
+        {
+            "id": 5671466,
+            "weight": 6.5,
+            "shape": "Box",
+            "width": 0.29,
+            "depth": 0.15,
+            "height": 0.23,
+            "description": "COMFORT T\u00d8YMYKNER SYDHAV"
+        },
+        {
+            "id": 5671466,
+            "weight": 6.5,
+            "shape": "Box",
+            "width": 0.29,
+            "depth": 0.15,
+            "height": 0.23,
+            "description": "COMFORT T\u00d8YMYKNER SYDHAV"
+        },
+        {
+            "id": 5671466,
+            "weight": 6.5,
+            "shape": "Box",
+            "width": 0.29,
+            "depth": 0.15,
+            "height": 0.23,
+            "description": "COMFORT T\u00d8YMYKNER SYDHAV"
+        },
+        {
+            "id": 4588737,
+            "weight": 6.0,
+            "shape": "Box",
+            "width": 0.285,
+            "depth": 0.195,
+            "height": 0.245,
+            "description": "MILO ULLVASK"
+        },
+        {
+            "id": 2724706,
+            "weight": 1.6,
+            "shape": "Box",
+            "width": 0.305,
+            "depth": 0.14,
+            "height": 0.225,
+            "description": "ST\u00c5LULL PADS SVINT"
+        },
+        {
+            "id": 2724706,
+            "weight": 1.6,
+            "shape": "Box",
+            "width": 0.305,
+            "depth": 0.14,
+            "height": 0.225,
+            "description": "ST\u00c5LULL PADS SVINT"
+        },
+        {
+            "id": 4586723,
+            "weight": 7.0,
+            "shape": "Box",
+            "width": 0.29,
+            "depth": 0.2,
+            "height": 0.25,
+            "description": "MILO ULLVASK PARFYMEFRI"
+        },
+        {
+            "id": 3168531,
+            "weight": 4.4,
+            "shape": "Box",
+            "width": 0.26,
+            "depth": 0.195,
+            "height": 0.23,
+            "description": "UNIVERSALSPRAY FIRST PRI"
+        },
+        {
+            "id": 4142618,
+            "weight": 5.6,
+            "shape": "Box",
+            "width": 0.295,
+            "depth": 0.245,
+            "height": 0.21,
+            "description": "OMO COLOR REFILL"
+        },
+        {
+            "id": 4141289,
+            "weight": 5.5,
+            "shape": "Box",
+            "width": 0.295,
+            "depth": 0.25,
+            "height": 0.21,
+            "description": "BLENDA SENSITIVE REFILL"
+        },
+        {
+            "id": 4141289,
+            "weight": 5.5,
+            "shape": "Box",
+            "width": 0.295,
+            "depth": 0.25,
+            "height": 0.21,
+            "description": "BLENDA SENSITIVE REFILL"
+        },
+        {
+            "id": 1793652,
+            "weight": 9.0,
+            "shape": "Box",
+            "width": 0.525,
+            "depth": 0.275,
+            "height": 0.14,
+            "description": "B\u00c6REPOSER EUROSPAR"
+        },
+        {
+            "id": 1793652,
+            "weight": 9.0,
+            "shape": "Box",
+            "width": 0.525,
+            "depth": 0.275,
+            "height": 0.14,
+            "description": "B\u00c6REPOSER EUROSPAR"
+        },
+        {
+            "id": 1793652,
+            "weight": 9.0,
+            "shape": "Box",
+            "width": 0.525,
+            "depth": 0.275,
+            "height": 0.14,
+            "description": "B\u00c6REPOSER EUROSPAR"
+        },
+        {
+            "id": 1793652,
+            "weight": 9.0,
+            "shape": "Box",
+            "width": 0.525,
+            "depth": 0.275,
+            "height": 0.14,
+            "description": "B\u00c6REPOSER EUROSPAR"
+        },
+        {
+            "id": 1793652,
+            "weight": 9.0,
+            "shape": "Box",
+            "width": 0.525,
+            "depth": 0.275,
+            "height": 0.14,
+            "description": "B\u00c6REPOSER EUROSPAR"
+        }
+    ],
+    "params": {
+        "type": "offline",
+        "timeout": 120
+    },
+    "pallet_depth": 1.2,
+    "pallet_width": 0.8,
+    "status": "active",
+    "result": null
+}

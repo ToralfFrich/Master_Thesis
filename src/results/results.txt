@@ -1,0 +1,110 @@
+/Users/Toralf/Desktop/Master/Package/Master/src/data/experiments/Nbox10/3box10.json
+13
+TerminationStatus: OPTIMAL
+Time: 0.14168310165405273OPTIMAL
+ObjectiveValue: 0.22281966599505915
+ObjectiveBound: 0.22281889937434662
+Gap: 3.4405433160433595e-6
+ResultCount: 1
+NodeCount: 1.0
+
+/Users/Toralf/Desktop/Master/Package/Master/src/data/experiments/Nbox10/3box10.json
+14
+TerminationStatus: OPTIMAL
+Time: 0.003741025924682617OPTIMAL
+ObjectiveValue: 0.20629999999999965
+ObjectiveBound: 0.20629999999999962
+Gap: 0.0
+ResultCount: 2
+NodeCount: 0.0
+
+/Users/Toralf/Desktop/Master/Package/Master/src/data/experiments/Nbox10/3box10.json
+15
+TerminationStatus: OPTIMAL
+Time: 0.0029380321502685547OPTIMAL
+ObjectiveValue: 0.20499999999999963
+ObjectiveBound: 0.20499999999999963
+Gap: 0.0
+ResultCount: 2
+NodeCount: 0.0
+
+/Users/Toralf/Desktop/Master/Package/Master/src/data/experiments/Nbox10/30box10.json
+14
+TerminationStatus: TIME_LIMIT
+Time: 2400.012781858444TIME_LIMIT
+
+/Users/Toralf/Desktop/Master/Package/Master/src/data/experiments/Nbox10/30box10.json
+15
+TerminationStatus: TIME_LIMIT
+Time: 2400.5789058208466TIME_LIMIT
+ObjectiveValue: 0.4599999999999995
+ObjectiveBound: 0.351
+Gap: 0.23695652173912968
+ResultCount: 10
+NodeCount: 14505.0
+
+/Users/Toralf/Desktop/Master/Package/Master/src/data/experiments/Nbox10/30box10.json
+16
+TerminationStatus: INTERRUPTED
+Time: 83.86519193649292INTERRUPTED
+
+/Users/Toralf/Desktop/Master/Package/Master/src/data/experiments/Nbox10/3box10.json
+16
+TerminationStatus: OPTIMAL
+Time: 0.020787954330444336OPTIMAL
+ObjectiveValue: 0.20499999999999963
+ObjectiveBound: 0.20499999999999963
+Gap: 0.0
+ResultCount: 1
+NodeCount: 1.0
+
+/Users/Toralf/Desktop/Master/Package/Master/src/data/experiments/Nbox10/3box10.json
+16
+TerminationStatus: OPTIMAL
+Time: 0.007976055145263672OPTIMAL
+ObjectiveValue: 0.20499999999999963
+ObjectiveBound: 0.20499999999999963
+Gap: 0.0
+ResultCount: 1
+NodeCount: 0.0
+
+/Users/Toralf/Desktop/Master/Package/Master/src/data/experiments/Nbox10/3box10.json
+16
+TerminationStatus: OPTIMAL
+Time: 0.014646053314208984OPTIMAL
+ObjectiveValue: 0.20499999999999963
+ObjectiveBound: 0.20499999999999963
+Gap: 0.0
+ResultCount: 1
+NodeCount: 0.0
+
+/Users/Toralf/Desktop/Master/Package/Master/src/data/experiments/Nbox10/3box10.json
+5
+TerminationStatus: OPTIMAL
+Time: 0.02881002426147461OPTIMAL
+ObjectiveValue: 0.20499999999999963
+ObjectiveBound: 0.20499999999999963
+Gap: 0.0
+ResultCount: 1
+NodeCount: 1.0
+
+/Users/Toralf/Desktop/Master/Package/Master/src/data/experiments/Nbox10/3box10.json
+11
+TerminationStatus: OPTIMAL
+Time: 0.04468417167663574OPTIMAL
+ObjectiveValue: 0.20499999999999963
+ObjectiveBound: 0.20499999999999963
+Gap: 0.0
+ResultCount: 1
+NodeCount: 1.0
+
+/Users/Toralf/Desktop/Master/Package/Master/src/data/experiments/Nbox10/3box10.json
+12
+TerminationStatus: OPTIMAL
+Time: 1.497586965560913OPTIMAL
+ObjectiveValue: 0.20508207778894064
+ObjectiveBound: 0.20506632356874963
+Gap: 7.681909780153689e-5
+ResultCount: 3
+NodeCount: 1362.0
+

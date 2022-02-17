@@ -1,0 +1,266 @@
+{
+    "id": "homogeneous60x40x30",
+    "start_state": [],
+    "items_to_stack": [
+        {
+            "id": 0,
+            "weight": 72.0,
+            "shape": "Box",
+            "width": 0.6,
+            "depth": 0.4,
+            "height": 0.3,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 72.0,
+            "shape": "Box",
+            "width": 0.6,
+            "depth": 0.4,
+            "height": 0.3,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 72.0,
+            "shape": "Box",
+            "width": 0.6,
+            "depth": 0.4,
+            "height": 0.3,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 72.0,
+            "shape": "Box",
+            "width": 0.6,
+            "depth": 0.4,
+            "height": 0.3,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 72.0,
+            "shape": "Box",
+            "width": 0.6,
+            "depth": 0.4,
+            "height": 0.3,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 72.0,
+            "shape": "Box",
+            "width": 0.6,
+            "depth": 0.4,
+            "height": 0.3,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 72.0,
+            "shape": "Box",
+            "width": 0.6,
+            "depth": 0.4,
+            "height": 0.3,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 72.0,
+            "shape": "Box",
+            "width": 0.6,
+            "depth": 0.4,
+            "height": 0.3,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 72.0,
+            "shape": "Box",
+            "width": 0.6,
+            "depth": 0.4,
+            "height": 0.3,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 72.0,
+            "shape": "Box",
+            "width": 0.6,
+            "depth": 0.4,
+            "height": 0.3,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 72.0,
+            "shape": "Box",
+            "width": 0.6,
+            "depth": 0.4,
+            "height": 0.3,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 72.0,
+            "shape": "Box",
+            "width": 0.6,
+            "depth": 0.4,
+            "height": 0.3,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 72.0,
+            "shape": "Box",
+            "width": 0.6,
+            "depth": 0.4,
+            "height": 0.3,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 72.0,
+            "shape": "Box",
+            "width": 0.6,
+            "depth": 0.4,
+            "height": 0.3,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 72.0,
+            "shape": "Box",
+            "width": 0.6,
+            "depth": 0.4,
+            "height": 0.3,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 72.0,
+            "shape": "Box",
+            "width": 0.6,
+            "depth": 0.4,
+            "height": 0.3,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 72.0,
+            "shape": "Box",
+            "width": 0.6,
+            "depth": 0.4,
+            "height": 0.3,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 72.0,
+            "shape": "Box",
+            "width": 0.6,
+            "depth": 0.4,
+            "height": 0.3,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 72.0,
+            "shape": "Box",
+            "width": 0.6,
+            "depth": 0.4,
+            "height": 0.3,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 72.0,
+            "shape": "Box",
+            "width": 0.6,
+            "depth": 0.4,
+            "height": 0.3,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 72.0,
+            "shape": "Box",
+            "width": 0.6,
+            "depth": 0.4,
+            "height": 0.3,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 72.0,
+            "shape": "Box",
+            "width": 0.6,
+            "depth": 0.4,
+            "height": 0.3,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 72.0,
+            "shape": "Box",
+            "width": 0.6,
+            "depth": 0.4,
+            "height": 0.3,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 72.0,
+            "shape": "Box",
+            "width": 0.6,
+            "depth": 0.4,
+            "height": 0.3,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 72.0,
+            "shape": "Box",
+            "width": 0.6,
+            "depth": 0.4,
+            "height": 0.3,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 72.0,
+            "shape": "Box",
+            "width": 0.6,
+            "depth": 0.4,
+            "height": 0.3,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 72.0,
+            "shape": "Box",
+            "width": 0.6,
+            "depth": 0.4,
+            "height": 0.3,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 72.0,
+            "shape": "Box",
+            "width": 0.6,
+            "depth": 0.4,
+            "height": 0.3,
+            "description": ""
+        }
+    ],
+    "params": {},
+    "pallet_depth": 1.2,
+    "pallet_width": 0.8,
+    "picklist_id": "homogeneous60x40x30",
+    "result_url": "",
+    "status": "pending",
+    "result": null,
+    "metrics": null
+}

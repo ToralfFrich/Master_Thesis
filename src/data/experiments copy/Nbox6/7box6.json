@@ -1,0 +1,74 @@
+{
+    "id": "master",
+    "start_state": [],
+    "items_to_stack": [
+        {
+            "id": 0,
+            "weight": 4.524,
+            "shape": "Box",
+            "width": 0.29,
+            "depth": 0.195,
+            "height": 0.08,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 3.666,
+            "shape": "Box",
+            "width": 0.235,
+            "depth": 0.195,
+            "height": 0.08,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 5.6,
+            "shape": "Box",
+            "width": 0.6,
+            "depth": 0.4,
+            "height": 0.185,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 10.64,
+            "shape": "Box",
+            "width": 0.6,
+            "depth": 0.4,
+            "height": 0.185,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 9.27,
+            "shape": "Box",
+            "width": 0.235,
+            "depth": 0.375,
+            "height": 0.115,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 6.64,
+            "shape": "Box",
+            "width": 0.196,
+            "depth": 0.397,
+            "height": 0.159,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 7.12,
+            "shape": "Box",
+            "width": 0.396,
+            "depth": 0.197,
+            "height": 0.183,
+            "description": ""
+        }
+    ],
+    "params": {},
+    "pallet_depth": 1.2,
+    "pallet_width": 0.8,
+    "status": "pending",
+    "result": null
+}

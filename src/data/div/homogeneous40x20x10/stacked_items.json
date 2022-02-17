@@ -1,0 +1,1384 @@
+{
+    "items": [
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.4,
+                "depth": 0.2,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 1.0499999523162842,
+                "y": 0.20000000298023224,
+                "z": 0.05000000074505806,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.2,
+                "depth": 0.4,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.800000011920929,
+                "y": 0.25,
+                "z": 0.05000000074505806,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.2,
+                "depth": 0.4,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.6000000238418579,
+                "y": 0.25,
+                "z": 0.05000000074505806,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.2,
+                "depth": 0.4,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.4000000059604645,
+                "y": 0.25,
+                "z": 0.05000000074505806,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.4,
+                "depth": 0.2,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.25,
+                "y": 0.20000000298023224,
+                "z": 0.05000000074505806,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.4,
+                "depth": 0.2,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 1.0499999523162842,
+                "y": 0.30000001192092896,
+                "z": 0.05000000074505806,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.4,
+                "depth": 0.2,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 1.0499999523162842,
+                "y": 0.5,
+                "z": 0.05000000074505806,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.2,
+                "depth": 0.4,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.800000011920929,
+                "y": 0.44999998807907104,
+                "z": 0.05000000074505806,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.2,
+                "depth": 0.4,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.6000000238418579,
+                "y": 0.44999998807907104,
+                "z": 0.05000000074505806,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.4,
+                "depth": 0.2,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 1.0499999523162842,
+                "y": 0.699999988079071,
+                "z": 0.05000000074505806,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.4,
+                "depth": 0.2,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.75,
+                "y": 0.699999988079071,
+                "z": 0.05000000074505806,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.2,
+                "depth": 0.4,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.4000000059604645,
+                "y": 0.44999998807907104,
+                "z": 0.05000000074505806,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.4,
+                "depth": 0.2,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.25,
+                "y": 0.30000001192092896,
+                "z": 0.05000000074505806,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.4,
+                "depth": 0.2,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.25,
+                "y": 0.5,
+                "z": 0.05000000074505806,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.4,
+                "depth": 0.2,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.44999998807907104,
+                "y": 0.699999988079071,
+                "z": 0.05000000074505806,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.4,
+                "depth": 0.2,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 1.0499999523162842,
+                "y": 0.20000000298023224,
+                "z": 0.25,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.4,
+                "depth": 0.2,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 1.0499999523162842,
+                "y": 0.30000001192092896,
+                "z": 0.25,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.4,
+                "depth": 0.2,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 1.0499999523162842,
+                "y": 0.5,
+                "z": 0.25,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.4,
+                "depth": 0.2,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 1.0499999523162842,
+                "y": 0.699999988079071,
+                "z": 0.25,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.2,
+                "depth": 0.4,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.800000011920929,
+                "y": 0.25,
+                "z": 0.25,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.2,
+                "depth": 0.4,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.800000011920929,
+                "y": 0.44999998807907104,
+                "z": 0.25,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.4,
+                "depth": 0.2,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.25,
+                "y": 0.699999988079071,
+                "z": 0.05000000074505806,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.2,
+                "depth": 0.4,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.6000000238418579,
+                "y": 0.25,
+                "z": 0.25,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.2,
+                "depth": 0.4,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.4000000059604645,
+                "y": 0.25,
+                "z": 0.25,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.2,
+                "depth": 0.4,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.6000000238418579,
+                "y": 0.44999998807907104,
+                "z": 0.25,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.2,
+                "depth": 0.4,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.4000000059604645,
+                "y": 0.44999998807907104,
+                "z": 0.25,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.4,
+                "depth": 0.2,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.25,
+                "y": 0.20000000298023224,
+                "z": 0.25,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.4,
+                "depth": 0.2,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.25,
+                "y": 0.30000001192092896,
+                "z": 0.25,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.4,
+                "depth": 0.2,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.25,
+                "y": 0.5,
+                "z": 0.25,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.4,
+                "depth": 0.2,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.75,
+                "y": 0.699999988079071,
+                "z": 0.25,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.4,
+                "depth": 0.2,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.44999998807907104,
+                "y": 0.699999988079071,
+                "z": 0.25,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.4,
+                "depth": 0.2,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 1.0499999523162842,
+                "y": 0.20000000298023224,
+                "z": 0.25,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.4,
+                "depth": 0.2,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 1.0499999523162842,
+                "y": 0.30000001192092896,
+                "z": 0.25,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.4,
+                "depth": 0.2,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 1.0499999523162842,
+                "y": 0.5,
+                "z": 0.25,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.4,
+                "depth": 0.2,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 1.0499999523162842,
+                "y": 0.699999988079071,
+                "z": 0.25,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.2,
+                "depth": 0.4,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.800000011920929,
+                "y": 0.25,
+                "z": 0.25,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.2,
+                "depth": 0.4,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.800000011920929,
+                "y": 0.44999998807907104,
+                "z": 0.25,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.4,
+                "depth": 0.2,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.25,
+                "y": 0.699999988079071,
+                "z": 0.25,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.2,
+                "depth": 0.4,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.6000000238418579,
+                "y": 0.25,
+                "z": 0.25,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.2,
+                "depth": 0.4,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.4000000059604645,
+                "y": 0.25,
+                "z": 0.25,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.2,
+                "depth": 0.4,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.6000000238418579,
+                "y": 0.44999998807907104,
+                "z": 0.25,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.2,
+                "depth": 0.4,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.4000000059604645,
+                "y": 0.44999998807907104,
+                "z": 0.25,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.4,
+                "depth": 0.2,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.25,
+                "y": 0.20000000298023224,
+                "z": 0.25,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.4,
+                "depth": 0.2,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.25,
+                "y": 0.30000001192092896,
+                "z": 0.25,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.4,
+                "depth": 0.2,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.25,
+                "y": 0.5,
+                "z": 0.25,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.4,
+                "depth": 0.2,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.75,
+                "y": 0.699999988079071,
+                "z": 0.25,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.4,
+                "depth": 0.2,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.44999998807907104,
+                "y": 0.699999988079071,
+                "z": 0.25,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.4,
+                "depth": 0.2,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 1.0499999523162842,
+                "y": 0.20000000298023224,
+                "z": 0.3499999940395355,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.4,
+                "depth": 0.2,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 1.0499999523162842,
+                "y": 0.30000001192092896,
+                "z": 0.3499999940395355,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.4,
+                "depth": 0.2,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 1.0499999523162842,
+                "y": 0.5,
+                "z": 0.3499999940395355,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.4,
+                "depth": 0.2,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 1.0499999523162842,
+                "y": 0.699999988079071,
+                "z": 0.3499999940395355,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.2,
+                "depth": 0.4,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.800000011920929,
+                "y": 0.25,
+                "z": 0.3499999940395355,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.4,
+                "depth": 0.2,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.25,
+                "y": 0.699999988079071,
+                "z": 0.25,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.2,
+                "depth": 0.4,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.6000000238418579,
+                "y": 0.25,
+                "z": 0.3499999940395355,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.2,
+                "depth": 0.4,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.800000011920929,
+                "y": 0.44999998807907104,
+                "z": 0.3499999940395355,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.2,
+                "depth": 0.4,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.4000000059604645,
+                "y": 0.25,
+                "z": 0.3499999940395355,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.2,
+                "depth": 0.4,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.6000000238418579,
+                "y": 0.44999998807907104,
+                "z": 0.44999998807907104,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.2,
+                "depth": 0.4,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.4000000059604645,
+                "y": 0.44999998807907104,
+                "z": 0.44999998807907104,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.4,
+                "depth": 0.2,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.25,
+                "y": 0.20000000298023224,
+                "z": 0.44999998807907104,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "item": {
+                "id": 0,
+                "weight": 16.0,
+                "shape": "Box",
+                "width": 0.4,
+                "depth": 0.2,
+                "height": 0.2,
+                "description": ""
+            },
+            "stacking": {
+                "x": 0.25,
+                "y": 0.4000000059604645,
+                "z": 0.44999998807907104,
+                "stack_height": 0.0,
+                "min_approach_height": 0.0,
+                "approach": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            }
+        }
+    ]
+}

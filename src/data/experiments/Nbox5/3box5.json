@@ -1,0 +1,38 @@
+{
+    "id": "master",
+    "start_state": [],
+    "items_to_stack": [
+        {
+            "id": 0,
+            "weight": 22.46400,
+            "shape": "Box",
+            "width": 0.24,
+            "depth": 0.39,
+            "height": 0.24,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 50.011722,
+            "shape": "Box",
+            "width": 0.459,
+            "depth": 0.314,
+            "height": 0.347,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 44.4,
+            "shape": "Box",
+            "width": 0.6,
+            "depth": 0.4,
+            "height": 0.185,
+            "description": ""
+        }
+    ],
+    "params": {},
+    "pallet_depth": 1.2,
+    "pallet_width": 0.8,
+    "status": "pending",
+    "result": null
+}

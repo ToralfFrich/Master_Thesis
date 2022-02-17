@@ -1,0 +1,103 @@
+{
+    "id": "stack_order_16",
+    "start_state": [],
+    "items_to_stack": [
+    {
+        "id": 0,
+        "weight": 11.490249999999998,
+        "shape": "Box",
+        "width": 0.19,
+        "depth": 0.295,
+        "height": 0.205,
+        "description": ""
+    },
+    {
+        "id": 0,
+        "weight": 9.415251999999999,
+        "shape": "Box",
+        "width": 0.397,
+        "depth": 0.196,
+        "height": 0.121,
+        "description": ""
+    },
+    {
+        "id": 0,
+        "weight": 5.26,
+        "shape": "Box",
+        "width": 0.29,
+        "depth": 0.265,
+        "height": 0.15,
+        "description": ""
+    },
+    {
+        "id": 0,
+        "weight": 2.01856,
+        "shape": "Box",
+        "width": 0.08,
+        "depth": 0.166,
+        "height": 0.152,
+        "description": ""
+    },
+    {
+        "id": 0,
+        "weight": 5.773824,
+        "shape": "Box",
+        "width": 0.288,
+        "depth": 0.179,
+        "height": 0.112,
+        "description": ""
+    },
+    {
+        "id": 0,
+        "weight": 1.01,
+        "shape": "Box",
+        "width": 0.152,
+        "depth": 0.122,
+        "height": 0.144,
+        "description": ""
+    },
+    {
+        "id": 0,
+        "weight": 8.24,
+        "shape": "Box",
+        "width": 0.318,
+        "depth": 0.235,
+        "height": 0.16,
+        "description": ""
+    },
+    {
+        "id": 0,
+        "weight": 6.91,
+        "shape": "Box",
+        "width": 0.397,
+        "depth": 0.196,
+        "height": 0.159,
+        "description": ""
+    },
+    {
+        "id": 0,
+        "weight": 5.773824,
+        "shape": "Box",
+        "width": 0.179,
+        "depth": 0.288,
+        "height": 0.112,
+        "description": ""
+    },
+    {
+        "id": 0,
+        "weight": 13.64375,
+        "shape": "Box",
+        "width": 0.295,
+        "depth": 0.37,
+        "height": 0.125,
+        "description": ""
+    }],
+    "params": {},
+    "pallet_depth": 1.2,
+    "pallet_width": 0.8,
+    "picklist_id": "stack_order_16",
+    "result_url": "",
+    "status": "pending",
+    "result": null,
+    "metrics": null
+}

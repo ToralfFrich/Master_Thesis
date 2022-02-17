@@ -1,0 +1,1 @@
+Sizes divide both length and width of a pallet, allowing perfect interlocking

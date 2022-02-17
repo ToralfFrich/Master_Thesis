@@ -1,0 +1,281 @@
+{
+    "id": "master",
+    "start_state": [],
+    "items_to_stack": [
+        {
+            "id": 0,
+            "weight": 9.4152,
+            "shape": "Box",
+            "width": 0.196,
+            "depth": 0.397,
+            "height": 0.121,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 12.37,
+            "shape": "Box",
+            "width": 0.397,
+            "depth": 0.196,
+            "height": 0.159,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 7.123,
+            "shape": "Box",
+            "width": 0.232,
+            "depth": 0.234,
+            "height": 0.129,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 4.9702,
+            "shape": "Box",
+            "width": 0.235,
+            "depth": 0.235,
+            "height": 0.09,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 5.773812,
+            "shape": "Box",
+            "width": 0.374,
+            "depth": 0.166,
+            "height": 0.093,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 5.773812,
+            "shape": "Box",
+            "width": 0.374,
+            "depth": 0.166,
+            "height": 0.093,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 2.509,
+            "shape": "Box",
+            "width": 0.094,
+            "depth": 0.284,
+            "height": 0.094,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 6.38361,
+            "shape": "Box",
+            "width": 0.37,
+            "depth": 0.213,
+            "height": 0.081,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 2.01856,
+            "shape": "Box",
+            "width": 0.08,
+            "depth": 0.166,
+            "height": 0.152,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 1.05462,
+            "shape": "Box",
+            "width": 0.084,
+            "depth": 0.155,
+            "height": 0.081,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 14.1568,
+            "shape": "Box",
+            "width": 0.224,
+            "depth": 0.395,
+            "height": 0.16,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 5.7286,
+            "shape": "Box",
+            "width": 0.181,
+            "depth": 0.211,
+            "height": 0.15,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 5.72,
+            "shape": "Box",
+            "width": 0.211,
+            "depth": 0.181,
+            "height": 0.15,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 5.145,
+            "shape": "Box",
+            "width": 0.35,
+            "depth": 0.21,
+            "height": 0.07,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 10.06,
+            "shape": "Box",
+            "width": 0.35,
+            "depth": 0.21,
+            "height": 0.137,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 7.489,
+            "shape": "Box",
+            "width": 0.395,
+            "depth": 0.237,
+            "height": 0.08,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 12.299089,
+            "shape": "Box",
+            "width": 0.281,
+            "depth": 0.253,
+            "height": 0.173,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 4.72,
+            "shape": "Box",
+            "width": 0.395,
+            "depth": 0.237,
+            "height": 0.08,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 11.36415,
+            "shape": "Box",
+            "width": 0.274,
+            "depth": 0.237,
+            "height": 0.175,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 7.79688,
+            "shape": "Box",
+            "width": 0.26,
+            "depth": 0.238,
+            "height": 0.126,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 10.134375,
+            "shape": "Box",
+            "width": 0.375,
+            "depth": 0.235,
+            "height": 0.115,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 14.447,
+            "shape": "Box",
+            "width": 0.35,
+            "depth": 0.24,
+            "height": 0.172,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 8.26,
+            "shape": "Box",
+            "width": 0.26,
+            "depth": 0.395,
+            "height": 0.12,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 2.1,
+            "shape": "Box",
+            "width": 0.08,
+            "depth": 0.166,
+            "height": 0.152,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 1.0,
+            "shape": "Box",
+            "width": 0.084,
+            "depth": 0.155,
+            "height": 0.081,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 3.45,
+            "shape": "Box",
+            "width": 0.393,
+            "depth": 0.168,
+            "height": 0.114,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 1.01,
+            "shape": "Box",
+            "width": 0.122,
+            "depth": 0.152,
+            "height": 0.144,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 2.63,
+            "shape": "Box",
+            "width": 0.298,
+            "depth": 0.2,
+            "height": 0.114,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 0.78,
+            "shape": "Box",
+            "width": 0.121,
+            "depth": 0.214,
+            "height": 0.137,
+            "description": ""
+        },
+        {
+            "id": 0,
+            "weight": 1.01,
+            "shape": "Box",
+            "width": 0.122,
+            "depth": 0.152,
+            "height": 0.144,
+            "description": ""
+        }
+    ],
+    "params": {},
+    "pallet_depth": 1.2,
+    "pallet_width": 0.8,
+    "status": "pending",
+    "result": null
+}

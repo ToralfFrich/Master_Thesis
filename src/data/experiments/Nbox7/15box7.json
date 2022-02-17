@@ -1,0 +1,148 @@
+{
+    "id": "stack_order_16",
+    "start_state": [],
+    "items_to_stack": [
+    {
+        "id": 0,
+        "weight": 1.02,
+        "shape": "Box",
+        "width": 0.179,
+        "depth": 0.288,
+        "height": 0.112,
+        "description": ""
+    },
+    {
+        "id": 0,
+        "weight": 3.45,
+        "shape": "Box",
+        "width": 0.393,
+        "depth": 0.168,
+        "height": 0.114,
+        "description": ""
+    },
+    {
+        "id": 0,
+        "weight": 2.63,
+        "shape": "Box",
+        "width": 0.298,
+        "depth": 0.2,
+        "height": 0.114,
+        "description": ""
+    },
+    {
+        "id": 0,
+        "weight": 2.11,
+        "shape": "Box",
+        "width": 0.375,
+        "depth": 0.205,
+        "height": 0.143,
+        "description": ""
+    },
+    {
+        "id": 0,
+        "weight": 2.9,
+        "shape": "Box",
+        "width": 0.388,
+        "depth": 0.158,
+        "height": 0.115,
+        "description": ""
+    },
+    {
+        "id": 0,
+        "weight": 5.2,
+        "shape": "Box",
+        "width": 0.197,
+        "depth": 0.396,
+        "height": 0.13,
+        "description": ""
+    },
+    {
+        "id": 0,
+        "weight": 4.16,
+        "shape": "Box",
+        "width": 0.264,
+        "depth": 0.29,
+        "height": 0.147,
+        "description": ""
+    },
+    {
+        "id": 0,
+        "weight": 2.1,
+        "shape": "Box",
+        "width": 0.08,
+        "depth": 0.166,
+        "height": 0.152,
+        "description": ""
+    },
+    {
+        "id": 0,
+        "weight": 1.0,
+        "shape": "Box",
+        "width": 0.084,
+        "depth": 0.155,
+        "height": 0.081,
+        "description": ""
+    },
+    {
+        "id": 0,
+        "weight": 15.21,
+        "shape": "Box",
+        "width": 0.427,
+        "depth": 0.314,
+        "height": 0.351,
+        "description": ""
+    },
+    {
+        "id": 0,
+        "weight": 9.87,
+        "shape": "Box",
+        "width": 0.448,
+        "depth": 0.27,
+        "height": 0.241,
+        "description": ""
+    },
+    {
+        "id": 0,
+        "weight": 17.93,
+        "shape": "Box",
+        "width": 0.427,
+        "depth": 0.314,
+        "height": 0.351,
+        "description": ""
+    },
+    {
+        "id": 0,
+        "weight": 7.66,
+        "shape": "Box",
+        "width": 0.396,
+        "depth": 0.197,
+        "height": 0.183,
+        "description": ""
+    },
+    {
+        "id": 0,
+        "weight": 4.92,
+        "shape": "Box",
+        "width": 0.196,
+        "depth": 0.397,
+        "height": 0.121,
+        "description": ""
+    },
+    {
+        "id": 0,
+        "weight": 6.91,
+        "shape": "Box",
+        "width": 0.397,
+        "depth": 0.196,
+        "height": 0.159,
+        "description": ""
+    }],
+    "params": {},
+    "pallet_depth": 1.2,
+    "pallet_width": 0.8,
+    "picklist_id": "stack_order_16",
+    "result_url": "",
+    "status": "pending",
+    "result": null,
+    "metrics": null
+}

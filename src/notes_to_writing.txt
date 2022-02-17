@@ -1,0 +1,247 @@
+Master thesis ideas
+1. Continue, but it will most likely not work
+2. Doing the whole thing as a literature review (not very good)
+3. Introduce some small other things (like all boxes need to be at ground, change to max output problem), and try to get some results out of that (possible)
+4. 
+
+
+Static Stability ideas
+1. Require z = 0
+2. Cog covered by box below
+3. 3/4 sides covered by boxes below (ensuring that cog is covered)
+4. Partial base support > lambda
+5. Full base support
+6. Currence Robotics way
+7. Static mechanical equilibrium
+8. Guillotine cuts
+9. Center of gravity must be close to centre (assume weight is proportional to the case size)
+
+
+Dynamic stabiltiy ideas
+1. Alonso 2016, ensuring that lateral and longitudinal stability is in place
+
+Robot arm ideas
+
+Other ideas
+1. Require a box not to have too much weight on it
+2. Do something with the order of the boxes
+3. Regne ut bounds
+4. Kombinere z = 0 og output max med currence sine algoritmer
+
+
+Big-M, checking if two numbers are equal x = b
+1. You can't check if equal, but you can check whether b-e <= x <= b+e
+2. Hence, we need to create 2 functions for checking b-e <= x and 2 for x <= b+e
+3. b-e <= x can be checked by enforcing that if that is the case, then a new bin variable z1 = 1
+    - Hz1 >= x-b+e (if x > b-e, then x-b+e >= 0.001, hence, it can't be 0.001 >= x-b+e, that triggers z1 to equal 1. If x < b-e, then z1 can be both 1 and 0. if x = b+e, then z1 can be both 1 and 0)
+    - H(1-z1) >= b-x-e (if x < b-e, then 0.001 <= b-x-e, and in this case we want z1 = 0 meaning the equation gets activated. if x-b+e > 0, then z1 both 1 and 0, same for x = b+e)
+4. this was only for b-e <= x, we also want to check x <= b+e
+5. new bin var z2
+    - if x < b+e, then z2 = 1, meaning that 0.001 <= b-x+e. 
+        Hz2 >= b-x+e
+    - but if x > b+e, then z2 = 0, meaning that x-b-e >= 0.001
+        H(1-z2) >= x-b-e (because then the right side will be positive, so the only way for constraint to be good is if left side has H, which only happens if z2 = 0)
+6. General tips, if (x >= M), then M is negative, as we want to ensure that the left side always becomes sufficiently negative. Or you could put it on the other side and get positive.
+7. General tips 2. As mentioned above if (M >= x), then M is always positive. And then if you have two equations where you have either or, then one of the equations will be M*var, the other (1-var)*M
+    depending on what you hwant the variable to be (1 or 0 for option1 etc.)
+
+
+
+For the objective function, and choosing a minimax
+- Note some theory on how we did it. We used the same tricks as they did in the AIMMS modelling thing.
+
+Creating a maximum and minimum constraint
+
+
+Linearising product
+SOS2 constraint used for linearising product
+- er en constraint som sier at max to variabler kan være ikke-null, og at disse i tillegg er ved siden av hverandre i en liste med variabler der de kommer etter hverandre. 
+- Disse kan oppstå ved f.eks. linearising av separable funksjoner (som vi bruker i linearising av product i static cover funskjonen
+- file:///Users/Toralf/Downloads/WileyModelBuildinginMathematicalProgramming5th2013.sharethefiles.com.pdf used for piecewise kap 7.3, 7.4, 9.3
+- Skrive om feilen som oppstår ved linearisering av et produkt
+- Max error skjer der vi er lengst unna de definerte breakpoints. (0.25+0.125/2) Max error: 0.1875*0.3125=0,05859375, men approksimasjonen vår gir 0.0546875. Forskjell = 0,00390625
+- Skrive om hvordan vi håndterte at u2 potensielt kan bli negativ. Velg max og velg min slik at den ikke blir negativ.
+- Snakk om if_static og hvordan vi har gangget den inn med uttrykkene for å vise om de er med i utregningen av partial static stability eller ikke. F.eks. på piecewise1 - piecewise2
+
+
+- Husk å legge til en ligning på at domain-variabler kan kun = 1. lpx osv.
+- Modellen er ikke helt lik Silva og Chen sin per nå, for på i,k på aik osv, så er det motsatt retning på boksene på en måte. Burde også skrive hvorfor i < k, og det er fordi det er redundant. Det er en måte å kutte antall variabler på, fordi det vil bare bli “motsatt” ligning den andre veien. 
+- For big-M theory, så er det viktig at vi kan forklare hvorfor det fungerer med den M-en som vi har valgt, altså at det er den med lavest bound. Det er jo fordi at hvis xj er 0 og positionel variabel er 0, så må xi + lengden på siden være innenfor bounden til palleten. Den kan ikke være noe lengre enn det (den blir uansett restricted videre av de constraints som begrenser den innenfor palleten.
+- Static stability stability factor kommer fra “Practical constraints in the container loading problem: Comprehensive formulations and exact algorithm”
+- Static Big M: 
+    - Zi + HZeq0 >= 0.001
+    - Zi <= H(1-Zeq0)
+- Sentinel: Hva det er og hvordan vi har brukt det i forbindelse med static support
+
+
+Det jeg har lagt i objective function, det er viktig blir nevnt hvorfor er lagt der. 
+
+
+Du må legge til sentinel i pbs. Og legge ved at constraint om pbs kun gjelder for alle bokser unntatt den siste. 
+
+
+Spm til Hetland
+- Revise, hvordan fungerer det egentlig? 
+- Ser det blir veldig mange if-er på guillotine cut. Noen forslag til hvordan gjøre det bedre? Modellen eksploderer litt egentlig.
+
+
+Hetland sier:
+- Kan legge inn slack i constraints, at det er noe 
+- Lage en end-to-end løsning. 
+- "En ukes beredskap for levering"
+
+
+Kan være en kan kutte _j_plus, siden de nok blir tatt av _i_plus på den motsatte griea. 
+Kan også kutt i indeksene. Ettersom at alle blir tatt med to ganger nå. 
+
+
+For å få til noe mer guillotine og interleaving så gir jeg poeng for antall bokser hver box blir supported av. Dette går jo litt mot guillotine, men kanskje det kan gjøre en avveining?
+- Det som er problemet med den er at den kan jo velge å bare plassere et objekt 1 cm inn på en boks nummer 2. 
+
+Kan snakke om hvordan load balancing kan få guillotine til å bli mindre. 
+
+Ifb. guillotine. Så kan vi:
+1. Finne hvilke bokser som er under en gitt boks. 
+2. Finne min og max i x og y retning 
+3. Si at en boks får straff for hvert skritt den ligger unna max-min/2. Gjelder ikke for bokser på bakken.
+HER Vil løsningen kun justere på x og y som den vil, og derfor så vil ikke dette fungerer egentlig. For den kan
+bare justere slik at den alltid vil ligge i midten. Meeeeen, vi kan gjøre denne, fordi hvis den har mulighet så vil den alltids
+finne den beste løsningen. også er det ikke noe krise at den tar litt feil. 
+
+NOTE TO LATER
+Kan være jeg må endre på konstanten som ganges inn i "two or more below" slik at den er tilpasset bedre antall bokser, evt. størrelsen
+på palleten.
+
+NOTE TO GUILLOTINE
+Sjekker for guillotine:
+1. j <= i AND i <= j+box
+2. j+0.001 <= i+box AND i+box <= j+box
+3. i <= j AND j+box <= i+box
+4. j <= i AND i+box <= j+box (men denne kan vi kansellere, fordi sjekk nummer 1 tar seg av den)
+
+
+For robot
+- Kunne ha brukt if1 i static stability til on top check z. Men da ville vi også gitt veldig mye insentiv til denne, noe som vi kanskje ikke ønsker?
+er bedre om de er uavhengige, men det blir en space vs. performace issue. 
+
+
+idea:
+make currence drop their order of things. instead, a fragility criteria is introduced. 
+
+For robot:
+snakk om hvordan dette pattern potensielt kan bidra til dårlig dynamisk stabilitet. Ja, hvorfor? 
+
+For robot:
+Kan snakke om hvordan vi ikke kan tillate en høyde som er høyere enn det osv osv. Eller at høydeforkskjellen mellom to bokser
+ikke kan være større enn...
+
+For robot:
+- Jeg måtte skru opp middle incentive litt mer. Vet ikke helt hvorfor? Fordi robot skal i utgangspunktet ikke være i mot middle incentive. 
+- Det samme gjelder for multiple boxes insentivet. Det burde jo fungere. Men det gjorde det ikke. 
+
+For robot:
+Kan være jeg kan ta bort hele insentivet fra objective. Fordi det er en constraint der som gjør at noen av de må bli 1. de har intet valg. 
+Da kan det hende at vi slipper å skru noe så voldsomt på middle incentive hvis det er casen. KOMMENTAR: Jadda, det funker som bare juling det
+
+Fra Hetland:
+Pass på å implementere ting som kun gjør at en stack er god. F.eks. så vet vi ikke om middle incentive gjør en stack god. Men vi vet at
+guillotine gjør en stack god.
+
+Angående guillotine:
+Prøver å få til guillotine, og hvis det går men det viser seg å være labour intensive for modellen, så kan det være greit å dra frem 
+middle incentive og multiple boxes som alternativer. 
+
+
+FOR GUILLOTINE:
+Problemet nå er at mxa og min fungerer globalt. Så må gange inn en variabel og lage en big-m constraint som gjør at vi 
+kan velge et arbitrært lite eller stort tall. Fordi det blir 2 på cut_x_left nå, og der skal det være 1. Det er fordi min blir = 0, og mistenker
+at det kan være et lite problem med max-en også. Eller nei, det vil det nok ikke være faktisk, siden det er den laveste som gjelder.
+Mens for min så vil det også være den laveste som gjelder, men her vil den alltid være = 0. 
+
+For Guillotine:
+- Husk at når vi vrir om boksen slik at vi ser den fra y-aksen, så havner det vi har kalt left og right på motsatt side, slik at left = right 
+og right = left
+- Det ser ut som det fortsatt er noe feil med min. Altså at den velger den laveste. Den skal velge laveste, men hvordan blir 
+value((m[:min_guillotine_cut_x_left_ij])[2, 3]) = 0.0, når den i dette tilfellet skal velge z_i, som = 1.
+
+Disse tallene gir lite mening, hvorfor vil den ikke sette på value((m[:min_guillotine_cut_x_left_ij])[2, 3]) = 0.0 til 1?
+
+value((m[:max_guillotine_cut_x_left_ij])[2, 1]) = 0.0
+value((m[:max_guillotine_cut_x_left_ij])[2, 3]) = 0.0
+value((m[:max_guillotine_cut_x_left_i])[2]) = 2.0
+value((m[:min_guillotine_cut_x_left_ij])[2, 1]) = 1.0
+value((m[:min_guillotine_cut_x_left_ij])[2, 3]) = 0.0
+value((m[:min_guillotine_cut_x_left_i])[2]) = 0.0
+value((m[:guillotine_flbx_j_plus])[2, 3]) = 0.0
+value((m[:min_guillotine_cut_x_left_j_plus_ij])[2, 3]) = 1.0
+value((m[:min_guillotine_cut_x_left_flbx_ij])[2, 3]) = 1.0
+
+HUSK Å SKRIVE For guillotine:
+En ting som er verdt å merke seg er at vi ønsker kanskje ikke at guillotine skal fungere for sidene av stacken? Fordi hvis ikke så vil det kanskje bli 
+en litt kjip stack? Der noen bokser må stå innover? Og det er jo litt halvveis da. Så for alle bokser som har flbx, flby = 0 så vil 
+ikke flbx regelen gjelde. Og for alle bokser som har flbx+cover, flby+cover = sentinel end, så vil ikke ij_plus gjelde. 
+
+#So what we could do is that:
+#if a box is part of the flby, then we get the y-value of the box. If there exists no flby in the cut, then check the other ones. 
+#Now, that is where the cut is. Then we say, that for one of the boxes, it's y-value has to be variable different from another box' y-value
+
+En alternativ constraint for callback guillotine er at vi kan sjekke x og x + length og sjekke z + height = z osv. Også kan vi si at 
+disse får ikke lov til å stå oppå hverandre i tillegg til at de har samme guillotine
+
+Grunnen til at det ofte blir feil på cutsene er fordi samlede cuts må ha sånn 0 betydning for at det ikke skal overta i objective. 
+Har funnet ut at det ikke går ha med cuts. blir 8 variabler, så den er litt lej, men sånn er det. 
+
+==== 
+Det vi skal jobbe med i morgen (nå som vi har løst problemet med cuts), er å se om vi endelig kan få det til å bli riktig hvis
+vi bruker callbacks. Så det vil si å få ut riktig der. 
+
+Må kanskje legge til en mer avansert form for guillotine? Må høre med Hetland. 
+
+Guillotine: Må legge inn slik at det ikke gjelder for der hvor sentinel starter/slutter i X/Y aksen. For det gjør det per nå ikke. 
+
+FOR LOAD BEARING
+ - I stedet for å regne ut en vekt for hver boks, så er det mulig å bare bruke en konstant også. Det er nok bedre egentlig. Ettersom
+ at styrken til en boks avhenger av hvor mange lag en boks består av. 
+
+FRA MAMMA
+Gjør det tydelig hva jeg har gjort. Hva jeg går. Hva jeg har tatt fra andre osv. 
+
+
+TESTING
+Setter pallet dimensions = det det skal være: 0.8, 1.2, 2
+Har introdusert en MIP gap på 0.015%
+ 
+En constraint som er litt spennende. Kreve at en boks som er plassert på toppen av en annen må være mindre enn den som en blir satt på. 
+Eller gi en straff for ikke?
+
+Det er en eller annen link mellom guillotine cut og full base support. Finn den. 
+
+I stedet for pbs, kan jeg bare kreve gravity. Altså at en boks må stå enten på bakken eller på toppen av en annen boks?
+
+To måter å gjøre pbs på. Den ene bruker if. Den andre ikke. Kan teste! 
+
+Feil i if-en til pbs... og guillotine. Og kanskje andre steder? Må sjekke. 
+
+I diskusjon. Guillotine cut er ikke en dynamic stability criterion, det er et static stability criterion. 
+
+Kan prøve å gange med enda en faktor mindre på guillotine? for å få den til å avslutte fortere? Evt. bare sett opp MIPgap da, men jau
+samme det.
+
+
+Du kan skrive om Guillo OnTop 8box 2 2. Der ser du at det ikke nødvendigvis er det beste static stability kriteriet. Fordi en boks 
+er så vidt plassert på toppen av en annen, men sørger allikevel for at det er guillotine. Sånn edge caser kan jo skje. Samme med Guillo 
+OnTop 9box1, der er det noe som er litt fishy. Kan en kanskje si noe om at vinkelen på boksen kommer som regel til å være akseptabel?
+
+20box1 blir litt for mye for guillo ontop, samme med 15box1_1 guillo ontop robot
+
+Prøv å sette først boks i 000 for robot. Kan dette gjøre den kjappere?
+
+En grunn til at box1 settet er kjappere, er fordi den høyeste boksen er høyere. Dette gjør at gap blir mindre. Så 0,01 for box1 
+er større enn 0,01 for box2. Siden høyden på høyeste boks i box2 er lavere. Da må også forskjell være mindre. En måte å endre på 
+er å sette mer gass på guillotine/objective. 
+
+Diskusjon guillotine: Mulig å sjekke hvor mye interlocking som finnes. 
+
+Husk å endre til mathit over alt. Fiks opp i variabel navn (potensielt) på middle incentive og multiple boxes incentive. 
+
+Guillo OnTop Robot 8box1 2 viser at guillotine kan feile katastrofalt innimellom. 
