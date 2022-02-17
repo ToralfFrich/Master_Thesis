@@ -12,6 +12,7 @@ Gurobi 9.14
 ## How to run? 
 1. Install the project as a julia package
 2. Run in terminal: julia --project src/Master.jl
+3. Results are placed in "src/results"
 
 ## Documentation
 The master thesis can be found under "Documentation" in the file hierarchy
