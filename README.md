@@ -6,7 +6,7 @@ _This github repo contains the source code to my master thesis: A real-world pal
 The code is, for the most part, MIP constraints and variables that have been used to formulate different practical constraints to the PLP. In addition, multiple experiments have been created that can be run. 
 
 ## Software used
-Julia 1.6.3
+Julia 1.6.3 \n
 Gurobi 9.14
 
 ## How to run? 
